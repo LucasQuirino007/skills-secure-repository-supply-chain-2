@@ -6,7 +6,7 @@ Agora você automatizou o processo para que o Dependabot te alerte sobre vulnera
 
 > [!NOTE]  
 > Você percebeu que havia vários pull requests sugeridos pelo Dependabot? Você fez o merge apenas daquele relacionado à dependência **axios**, mas os outros desapareceram do painel **Pull requests**. Isso acontece porque o upgrade da dependência axios disparou mudanças em outras dependências transitivas, que podem ter sido removidas ou atualizadas para outras versões. Sempre que houver uma mudança no seu dependency graph, o Dependabot revisa automaticamente os pull requests existentes e fecha aqueles que deixaram de ser relevantes. Então não faça merge de tudo de uma vez, deixe o Dependabot trabalhar por você! 
-<img width="955" alt="Captura de tela mostrando que o PR do axios foi mesclado e que os outros 2 foram fechados" src="../images/axios-pr-merged-others-closed.png" />
+<img width="955" alt="Captura de tela mostrando que o PR do axios foi mesclado e que os outros 2 foram fechados" src="https://github.com/LucasQuirino007/skills-secure-repository-supply-chain-2/blob/main/.github/images/axios-pr-merged-others-closed.png?raw=true" />
 
 
 O recurso de security updates ajuda a automatizar o processo de resolver alertas, mas e quanto a simplesmente manter as versões atualizadas? Também podemos automatizar a geração de pull requests para versões atualizadas de dependências usando o recurso de version updates do Dependabot.
